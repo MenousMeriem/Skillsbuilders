@@ -1,19 +1,14 @@
-// import Carte from "../Component/Carte/Carte";
-// import Footer from "../Component/Footer/Footer";
-
-// import Navbar from "../Component/Navbar/Navbar";
-import Header from "../Component/Header/Header";
-
+import Hero from "../Component/Hero/Hero.jsx";
+import Cartes from "../Component/Cartess/Cartes.jsx"
 
 export default function Accueil() {
 
     return (
         <div className="">
-            {/* <Header/> */}
 
-            {/* <Navbar/>
-            <Carte/>
-            <Footer/> */}
+            <Hero/>
+            <Cartes/>
+
         </div>
     )
 }

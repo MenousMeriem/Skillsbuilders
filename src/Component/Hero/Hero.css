@@ -5,14 +5,15 @@
 
 .card{
     width: 100vw; 
+    height: 90vh;
+    position: relative;
 }
 
 .image img {
     width: 100vw;
-    position: relative;
 }
 
-.card-body{
+.card-body-hero{
     position: absolute;
     text-align: center;
     color: white;
@@ -22,7 +23,7 @@
     line-height: 260%;
 }
 
-.card-body .card-title {
+.card-body-hero .card-title {
     font-size: 300%;
     text-align: center;
     margin-inline: auto;

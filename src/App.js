@@ -1,14 +1,9 @@
-// Routes : 
-// import { RouterProvider } from 'react-router-dom';
 
 // Pages : 
-// import Formations from './Pages/Formations.jsx';
-import Carte from './Component/Carte/Carte.jsx';
-import Navbar from './Component/Navbar/Navbar.jsx';
-
-// import Accueil from './Pages/Accueil.jsx';
 import Accueil from "./Pages/Accueil.jsx"
+import Navbar from "./Component/Navbar/Navbar.jsx"
 import Formations from "./Pages/Formations.jsx"
+
 import { 
   createBrowserRouter, 
   createRoutesFromElements, 
@@ -28,8 +23,6 @@ function App() {
   return (
     <div className=''>
       <RouterProvider router={router}/>
-      <Carte/>
-      {/* <RouterProvider router={router}/> */}
     </div>
     
   );

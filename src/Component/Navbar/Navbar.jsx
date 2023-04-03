@@ -1,10 +1,8 @@
+// Pages : 
 import React from 'react'
 import {RxAvatar} from 'react-icons/rx';
 import {Link, Outlet} from 'react-router-dom';
 import "./Navbar.css"
-
-
-// Pages : 
 
 
 export default function Navbar() {
@@ -12,7 +10,7 @@ export default function Navbar() {
         <div>
             <div className="navbar bg-base-100 ">
                 <div className="flex-1">
-                    <Link className="btn btn-ghost normal-case text-xl">daisyUI</Link>
+                    <figure className="image w-11 h-11"><img src="./assets/logo.png" alt="Shoes"/></figure>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">

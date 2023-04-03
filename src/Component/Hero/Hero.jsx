@@ -1,11 +1,12 @@
-import "./Carte.css"
+import "./Hero.css"
 
-const Carte = () => {
-    return ( 
+const Hero = () => {
+    return (
+        
         <div className="card">
             <figure className="image"><img src="./assets/1.png" alt="Shoes"/></figure>
-            <div className="card-body">
-                <h2 className="card-title">Skills Builbers</h2>
+            <div className="card-body-hero">
+                <h2 className="card-title">Skills Builders</h2>
                 <p> Bienvenue sur notre plateforme de cours en ligne! 
                     Nous sommes ravis de vous offrir une opportunité 
                     unique d'apprendre depuis n'importe où et à n'importe quel moment. 
@@ -17,7 +18,8 @@ const Carte = () => {
                 </div>
             </div>
         </div>
+        
      );
 }
  
-export default Carte;
+export default Hero;
