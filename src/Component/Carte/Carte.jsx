@@ -15,8 +15,9 @@ const Carte = () => {
                     <button className="btn btn-primary bg-white text-blue-900 mr-4 hover:text-white"> Ouvrir un compte </button>
                     <button className="btn btn-primary border-white" > En savoir plus </button>
                 </div>
-            </div>
+            </div> 
         </div>
+        
      );
 }
  
