@@ -1,11 +1,11 @@
 import Footer from "../Component/Footer/Footer.jsx"
-const Formations = () => {
+const Carriere = () => {
     return ( 
        <div>
-        <h1>jkdfhdlfjdlfdlfjdklj</h1>
+        <h1>tfou</h1>
         <Footer/>
        </div> 
      );
 }
  
-export default Formations;
+export default Carriere;
