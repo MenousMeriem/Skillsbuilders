@@ -14,8 +14,8 @@ export default function Navbar() {
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">
-                        <li><Link> Acceuil </Link></li>
-                        <li><Link> Formations </Link></li>
+                        <li><Link to={'/'}> Acceuil </Link></li>
+                        <li><Link to={'/Formations'}> Formations </Link></li>
                         <li><Link> Nos projets</Link></li>
                         <li><Link> Carrires </Link></li>
                     </ul>
