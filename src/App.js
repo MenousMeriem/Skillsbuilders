@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+// Routes : 
+// import { RouterProvider } from 'react-router-dom';
 
+// Pages : 
+// import Formations from './Pages/Formations.jsx';
+import Carte from './Component/Carte/Carte.jsx';
+import Navbar from './Component/Navbar/Navbar.jsx';
+
+// import Accueil from './Pages/Accueil.jsx';
+import Accueil from "./Pages/Accueil.jsx"
+import Formations from "./Pages/Formations.jsx"
+import { 
+  createBrowserRouter, 
+  createRoutesFromElements, 
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+      <Route path="/" element={<Navbar/>}>
+        <Route index='/' element={<Accueil/>}/>
+        <Route path='Formations' element={<Formations/>}/>
+      </Route>
+));
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=''>
+      <RouterProvider router={router}/>
+      <Carte/>
+      {/* <RouterProvider router={router}/> */}
     </div>
+    
   );
 }
 
 export default App;
+
+
+
+ 

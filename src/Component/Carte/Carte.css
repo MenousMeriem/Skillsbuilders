@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
+
+
+
+.card{
+    width: 100vw; 
+}
+
+.image img {
+    width: 100vw;
+    position: relative;
+}
+
+.card-body{
+    position: absolute;
+    text-align: center;
+    color: white;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 10%;
+    line-height: 260%;
+}
+
+.card-body .card-title {
+    font-size: 300%;
+    text-align: center;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+}
