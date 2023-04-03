@@ -1,8 +1,11 @@
 import Footer from "../Component/Footer/Footer.jsx"
+import Banniere from "../Component/Banniere/Banniere.jsx"
 const Projets = () => {
     return ( 
        <div>
-        <h1>merde</h1>
+        
+        <Banniere/>
+        
         <Footer/>
        </div> 
      );

@@ -1,12 +1,13 @@
 import Footer from "../Component/Footer/Footer.jsx"
 import Banniere from "../Component/Banniere/Banniere.jsx"
-const Carriere = () => {
-    return ( 
-       <div>
+const Evenements = () => {
+    return (
+        <div>
         <Banniere/>
         <Footer/>
-       </div> 
+       </div>  
+
      );
 }
  
-export default Carriere;
+export default Evenements;
