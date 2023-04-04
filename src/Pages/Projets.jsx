@@ -1,13 +1,15 @@
 import Footer from "../Component/Footer/Footer.jsx"
+import Banniere from "../Component/Banniere/Banniere.jsx"
 import Pagination from "../Component/Pagination/Pagination.jsx"
-const Formations = () => {
+const Projets = () => {
     return ( 
        <div>
-        <h1>jkdfhdlfjdlfdlfjdklj</h1>
+        
+        <Banniere/>
         <Pagination/>
         <Footer/>
        </div> 
      );
 }
  
-export default Formations;
+export default Projets;

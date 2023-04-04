@@ -16,8 +16,8 @@ export default function Navbar() {
                     <ul className="menu menu-horizontal px-1">
                         <li><Link to={'/'}> Acceuil </Link></li>
                         <li><Link to={'/Formations'}> Formations </Link></li>
-                        <li><Link> Nos projets</Link></li>
-                        <li><Link> Carrires </Link></li>
+                        <li><Link to={'/Projets'}> Nos projets</Link></li>
+                        <li><Link to={'/Carriere'}> Carrires </Link></li>
                     </ul>
                 </div>
                 <div className="dropdown dropdown-end">

@@ -1,9 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
 
-
-
-.card{
+.cardhero{
     width: 100vw; 
     height: 90vh;
     position: relative;
@@ -23,7 +21,7 @@
     line-height: 260%;
 }
 
-.card-body-hero .card-title {
+.card-body-hero .cardtitle {
     font-size: 300%;
     text-align: center;
     margin-inline: auto;
