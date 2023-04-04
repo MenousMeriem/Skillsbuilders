@@ -5,6 +5,7 @@ import Accueil from "./Pages/Accueil.jsx"
 import Formations from "./Pages/Formations.jsx"
 import Projets from "./Pages/Projets.jsx"
 import Carriere from "./Pages/Carriere.jsx"
+import Evenements from "./Pages/Evenements.jsx"
 
 import { 
   createBrowserRouter, 
@@ -12,6 +13,7 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
+import Calendrier from './Pages/Calendrier.jsx';
 
 
 const router = createBrowserRouter(
@@ -21,8 +23,8 @@ const router = createBrowserRouter(
         <Route path='Formations' element={<Formations/>}/>
         <Route path='Projets' element={<Projets/>}/>
         <Route path='Carriere' element={<Carriere/>}/>
-        <Route path='Evenements' element={<Carriere/>}/>
-        <Route path='Calendrier' element={<Carriere/>}/>
+        <Route path='Evenements' element={<Evenements/>}/>
+        <Route path='Calendrier' element={<Calendrier/>}/>
         
 
       </Route >

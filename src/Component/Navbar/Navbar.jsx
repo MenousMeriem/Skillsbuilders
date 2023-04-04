@@ -32,7 +32,7 @@ export default function Navbar() {
                 </ul>
             </div>
             </div>
-        <main>
+        <main className=''>
             <Outlet/>
         </main> 
     </div>
