@@ -23,11 +23,7 @@ function App() {
   return (
     <div className=''>
       <RouterProvider router={router}/>
-
-      
-      
       {/* <RouterProvider router={router}/> */}
-
     </div>
     
   );
