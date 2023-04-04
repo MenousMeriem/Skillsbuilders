@@ -4,3 +4,17 @@
     border-radius: 0%;
     height: 20rem;
 }
+
+.title{
+    color: white;
+    padding: 3%;
+    font-size: 200%;
+
+}
+
+.texte{
+    color: white;
+    padding: 3%;
+    font-size: 150%;
+
+}
