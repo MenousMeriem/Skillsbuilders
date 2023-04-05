@@ -19,7 +19,9 @@
 
 }
 
-.h-6 w-6{
-    height: 2rem;
-    width: 10%;
+.badge{
+    height: 3rem;
+    width: 6%;
+    
+    margin-left: 3%;
 }
