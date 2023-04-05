@@ -39,7 +39,7 @@ const Cartes = () => {
             <div className="card__card cards__c">
                 <div className="card__img">
                     <figure className="image">
-                        <img src="./assets/js.png" alt="Shoes"/>
+                        <img src="./assets/js.png"/>
                     </figure>
                 </div>
                 <div className="card__body">
