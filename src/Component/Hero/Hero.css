@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
 
 .cardhero{
-    width: 100vw; 
-    height: 90vh;
+    
     position: relative;
 }
 
-.image img {
-    width: 100vw;
+.imag img {
+    width: 100vw; 
+    height: 91vh;
 }
 
 .card-body-hero{
@@ -22,8 +22,13 @@
 }
 
 .card-body-hero .cardtitle {
-    font-size: 300%;
+    font-size: 370%;
     text-align: center;
     margin-inline: auto;
     margin-bottom: 1rem;
+}
+
+.card-body-hero p {
+    font-size: 150%;
+    line-height: 210%;
 }

@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         
         <div className="cardhero">
-            <figure className="image"><img src="./assets/1.png"/></figure>
+            <figure className="imag"><img src="../assets/1.png"/></figure>
             <div className="card-body-hero">
                 <h2 className="cardtitle">Skills Builders</h2>
                 <p> Bienvenue sur notre plateforme de cours en ligne! 
