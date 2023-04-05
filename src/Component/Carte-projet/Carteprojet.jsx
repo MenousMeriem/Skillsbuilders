@@ -12,7 +12,7 @@ function Carteprojet() {
                         Nous sommes ravis de vous offrir une opportunité unique <br />
                         d'apprendre depuis n'importe où et à n'importe quel moment.</p>
                     <div className="card-actions justify-end">
-                        {/* <button className="btn bg-orange-600 border-transparent	">Découvrire nos projets</button> */}
+                        <button className="btn bg-orange-600 border-transparent	">Découvrire nos projets</button>
                     </div>
                 </div>
                 <figure className="">
