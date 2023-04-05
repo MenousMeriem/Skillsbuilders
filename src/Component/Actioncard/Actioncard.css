@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
 .cardA{
-    background-color: #d432203b;
+    background-color: #5c73e63b;
     border-radius: 0%;
-    height: 20rem;
+    height: 15rem;
     width: 100%;
     /* opacity: 0.4; */
     border-radius: 40px;
@@ -17,4 +17,9 @@
     font-size: 170%
     
 
+}
+
+.h-6 w-6{
+    height: 2rem;
+    width: 10%;
 }
