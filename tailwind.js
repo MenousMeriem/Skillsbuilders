@@ -8,6 +8,13 @@ module.exports = {
       ...theme('colors'),
       auto: 'auto',
     }),
+    theme: {
+      extend: {
+        colors:  {
+          titre: "#5C72E6"
+        }
+      },
+    },
     animation: {
       none: 'none',
       spin: 'spin 1s linear infinite',
