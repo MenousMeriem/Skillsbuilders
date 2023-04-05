@@ -23,7 +23,7 @@ const router = createBrowserRouter(
         <Route path='Projets' element={<Projets/>}/>
         <Route path='Carriere' element={<Carriere/>}/>
         <Route path='Evenements' element={<Carriere/>}/>
-        <Route path='Calendrier' element={<Carriere/>}/>
+        <Route path='Calendrier' element={<Calendrier/>}/>
       </Route >
       
 ));

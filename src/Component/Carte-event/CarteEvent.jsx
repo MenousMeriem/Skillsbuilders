@@ -2,7 +2,7 @@ import React from 'react'
 
 function CarteEvent() {
   return (
-        <div>
+        <div className='bg-teal-500'>
             
         </div>
   )
