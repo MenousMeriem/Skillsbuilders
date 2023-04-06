@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
+
 .cardR{
     background-color: #5c73e63b;
-    border-radius: 0%;
     height: 20rem;
     width: 90%;
-    /* opacity: 0.4; */
     border-radius: 40px;
     margin-left: 5%;
     margin-top: 3%;
+    
 }
-
 
 
 .texte-recherche{
     color:#0528ed;
     padding: 3%;
-    font-size: 170%
-    
-
+    font-size: 170%;
 }

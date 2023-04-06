@@ -1,27 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
+
 .cardA{
     background-color: #5c73e63b;
-    border-radius: 0%;
-    height: 15rem;
-    width: 100%;
-    /* opacity: 0.4; */
+    height: 20rem;
+    width: 90%;
     border-radius: 40px;
-    margin-top: 3%;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -3%;
+    z-index: -1;
 }
-
-
 
 .texte-action{
     color:#0528ed;
     padding: 3%;
     font-size: 170%
-    
-
 }
 
 .badge{
     height: 3rem;
     width: 6%;
-    
     margin-left: 3%;
+    margin-bottom: 3%;
 }
+/* w-166 bg-base-100 shadow-xl */

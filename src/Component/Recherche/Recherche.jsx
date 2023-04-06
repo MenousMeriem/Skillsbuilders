@@ -4,8 +4,7 @@ const Recherche = ({text}) => {
 <div className="cardR w-166 bg-base-100 shadow-xl">
   <div className="card-body">
     <h6 className="texte-recherche">{text}</h6> 
-    <input type="text" placeholder="Recherche" className="input input-bordered  w-full max-w-sM" />
-    
+    <input type="text" placeholder="Recherche" className="input input-bordered  w-full mt-12" />
   </div>
 </div>
      );

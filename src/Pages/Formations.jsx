@@ -2,18 +2,21 @@ import Footer from "../Component/Footer/Footer.jsx"
 import Pagination from "../Component/Pagination/Pagination.jsx"
 import Recherche from "../Component/Recherche/Recherche.jsx"
 import CartesPage from "../Component/Cartes/CartesPage.jsx"
+import Actioncard from "../Component/Actioncard/Actioncard.jsx"
 
 const Formations = () => {
     return ( 
-      //  <div className="flex justify-center flex-col items-center">
+     
         <div>
-        <Recherche text=" Dans quel domaine souhaitez-vous vous former ?" />
-        <CartesPage/>
-        <CartesPage/>
-        <CartesPage/>
-        <div className="flex justify-center flex-col items-center"><Pagination/></div> 
-        <Footer/></div>
-      //  </div> 
+          <Actioncard textaction="Dans quel domaine souhaitez vous vous formez ?"/>
+          <Recherche/>
+          <CartesPage/>
+          <CartesPage/>
+          <CartesPage/>
+          <div className="flex justify-center flex-col items-center"><Pagination/></div> 
+          <Footer/>
+        </div>
+     
      );
 }
  

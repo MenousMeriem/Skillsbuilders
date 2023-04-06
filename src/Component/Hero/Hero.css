@@ -11,6 +11,31 @@
     height: 91vh;
 }
 
+@media screen and (max-width: 640px) {
+    .imag img :{
+        height: 20vh;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .imag img:{
+        height: 40vh;
+    }
+    
+}
+@media screen and (max-width: 1024px) {
+    .imag img :{
+        height:60vh;
+    }
+    
+}
+@media screen and (max-width: 1228px) {
+    .imag img :{
+        height: 80vh;
+    }
+    
+}
+
 .card-body-hero{
     position: absolute;
     text-align: center;

@@ -4,12 +4,9 @@
     height: 15rem;
     width: 80%;
     margin-top: 3%;
-    
-
 }
 
 .textcards{
-    
     margin-top: 2%;
     margin-bottom: 5%;
     margin-left: 8%;
@@ -17,13 +14,13 @@
     height: 12rem;
     width: 50%;
     text-align: center;
+    color: white;
 }
 
 .cardtitles{
     font-size: 150%;
     padding-top: 4%;
     padding-bottom: 3%;
-
 }
 
 .cardtexts{
@@ -33,6 +30,5 @@
     margin-left: 4%;
     margin-right: 4%;
    
-
 }
 
