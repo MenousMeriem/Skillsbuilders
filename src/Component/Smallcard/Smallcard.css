@@ -1,33 +1,33 @@
-.cardbig{
+.cardsmall{
     border-radius: 40px;
     
-    height: 28rem;
-    width: 90%;
-    margin-top: 5%;
+    height: 15rem;
+    width: 80%;
+    margin-top: 3%;
     
 
 }
 
-.textcard{
-    background-color:white;
-    margin-top: 5%;
+.textcards{
+    
+    margin-top: 2%;
     margin-bottom: 5%;
     margin-left: 8%;
     border-radius: 40PX;
-    height: 20rem;
-    width: 37%;
+    height: 12rem;
+    width: 50%;
     text-align: center;
 }
 
-.cardtitle{
-    font-size: 250%;
+.cardtitles{
+    font-size: 150%;
     padding-top: 4%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 
 }
 
-.cardtext{
-    font-size: 120%;
+.cardtexts{
+    font-size: 100%;
     padding-top: 3%;
     padding-bottom: 2%;
     margin-left: 4%;
@@ -36,9 +36,3 @@
 
 }
 
-
-
-
-
-  
- 

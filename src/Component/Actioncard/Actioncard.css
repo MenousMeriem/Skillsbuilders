@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
+.cardA{
+    background-color: #5c73e63b;
+    border-radius: 0%;
+    height: 15rem;
+    width: 100%;
+    /* opacity: 0.4; */
+    border-radius: 40px;
+    margin-top: 3%;
+}
+
+
+
+.texte-action{
+    color:#0528ed;
+    padding: 3%;
+    font-size: 170%
+    
+
+}
+
+.badge{
+    height: 3rem;
+    width: 6%;
+    
+    margin-left: 3%;
+}
