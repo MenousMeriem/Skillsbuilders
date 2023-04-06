@@ -1,10 +1,11 @@
 import "./Hero.css"
+import image from "../../assets/1.png";
 
 const Hero = () => {
     return (
         
         <div className="cardhero">
-            <figure className="imag"><img src="../assets/1.png"/></figure>
+            <figure className="imag"><img src={image}/></figure>
             <div className="card-body-hero">
                 <h2 className="cardtitle">Skills Builders</h2>
                 <p> Bienvenue sur notre plateforme de cours en ligne! 

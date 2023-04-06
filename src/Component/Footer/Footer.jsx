@@ -1,9 +1,11 @@
 import "./Footer.css"
+import image from "../../assets/LogoFooter.PNG"
+
 const Footer = () => {
     return ( 
         <footer className="footer p-10 bg-base-200 text-base-content">
           <div>
-            <figure className="imageFooter"><img src="./assets/LogoFooter.png" alt="Logo"/></figure>
+            <figure className="imageFooter"><img src={image} alt="Logo"/></figure>
             <h1>SKILLS BUILDERS</h1>
           </div> 
           <div>

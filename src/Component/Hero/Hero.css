@@ -25,10 +25,10 @@
     font-size: 370%;
     text-align: center;
     margin-inline: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .card-body-hero p {
-    font-size: 150%;
+    font-size: 170%;
     line-height: 210%;
 }

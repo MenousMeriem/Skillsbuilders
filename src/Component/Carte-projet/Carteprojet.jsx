@@ -1,4 +1,5 @@
 import React from 'react'
+import image from "../../assets/2.png";
 
 function Carteprojet() {
   return (
@@ -7,7 +8,7 @@ function Carteprojet() {
             <div className="card lg:card-side bg-base-100 shadow-xl">
                 
                 <div className="card-body">
-                    <h2 className="text-black text-center text-7xl p-9 ">Projets réalisés</h2>
+                    <h2 className="text-black text-center text-7xl p-9">Projets réalisés</h2>
                     <p className='text-black text-center text-3xl'> 
                         Bienvenue sur notre plateforme de cours en ligne ! <br /> 
                         Nous sommes ravis de vous offrir une opportunité unique <br />
@@ -17,7 +18,7 @@ function Carteprojet() {
                     </div>
                 </div>
                 <figure className="">
-                    <img className='w-11/12 h-11/12' src="./../assets/2.png"/>
+                    <img className='w-11/12 h-11/12' src={image}/>
                 </figure>
             </div>
         </div>

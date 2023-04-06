@@ -2,7 +2,7 @@ import React from 'react'
 
 function CarteEvent() {
   return (
-        <div className=' bg-titre w-screen h-[80vh] flex flex-col gap-8 p-16 rounded-2xl	' >
+        <div className=' bg-titre h-[80vh] flex flex-col gap-8 p-16 rounded-2xl mb-10 	' >
           <h2 className="text-white text-8xl text-center mb-8"> Evenements </h2>
           <h3 className='text-white text-4xl text-center'> Bienvenue sur notre plateforme de cours en ligne! Nous sommes </h3>
           <h3 className='text-white text-4xl text-center'> ravis de vous offrir une opportunité unique d'apprendre depuis </h3>
